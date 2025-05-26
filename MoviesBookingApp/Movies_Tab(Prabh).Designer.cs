@@ -81,7 +81,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(600, 95);
+            this.pictureBox2.Location = new System.Drawing.Point(725, 139);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(253, 263);
             this.pictureBox2.TabIndex = 9;
@@ -135,6 +135,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Movies_Tab_Prabh_";
             this.Text = "Movies_Tab_Prabh_";
+            this.Load += new System.EventHandler(this.Movies_Tab_Prabh__Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
