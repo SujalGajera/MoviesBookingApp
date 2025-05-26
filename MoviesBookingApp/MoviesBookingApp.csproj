@@ -84,6 +84,9 @@
     <Compile Include="SignUp%28Suyang%29.Designer.cs">
       <DependentUpon>SignUp%28Suyang%29.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dashboard%28Sujal%29.resx">
+      <DependentUpon>Dashboard%28Sujal%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
