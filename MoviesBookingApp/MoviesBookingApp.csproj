@@ -87,6 +87,9 @@
     <EmbeddedResource Include="Dashboard%28Sujal%29.resx">
       <DependentUpon>Dashboard%28Sujal%29.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login%28Sijan%29.resx">
+      <DependentUpon>Login%28Sijan%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Movies_Tab%28Prabh%29.resx">
       <DependentUpon>Movies_Tab%28Prabh%29.cs</DependentUpon>
     </EmbeddedResource>
