@@ -14,7 +14,7 @@ The **Prime Cinema Project** is a simple and functional web-based cinema managem
 - **Suyang** - Team Member
 - **Asanthika** - Mentor & Guide
 - **Udara** - Client 
-  Bachelor of Information Technology, OPAIC, Auckland, New Zealand
+- Bachelor of Information Technology, OPAIC, Auckland, New Zealand
 
 ---
 
@@ -38,4 +38,4 @@ The **Prime Cinema Project** is a simple and functional web-based cinema managem
 
 1. **Clone the Repository**
    ```bash
-   [https://github.com/SujalGajera/MoviesBookingApp.git]
+   https://github.com/SujalGajera/MoviesBookingApp.git
