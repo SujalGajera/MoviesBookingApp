@@ -29,34 +29,34 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnSignup = new System.Windows.Forms.Button();
+            this.btnSignin = new System.Windows.Forms.Button();
+            this.btnFoods = new System.Windows.Forms.Button();
+            this.btnMovies = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.btnF4 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.btnF3 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.btnF2 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.btnF1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.btnM4 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.btnM3 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnM2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnM1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -73,11 +73,11 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.txtSearch);
+            this.panel1.Controls.Add(this.btnSignup);
+            this.panel1.Controls.Add(this.btnSignin);
+            this.panel1.Controls.Add(this.btnFoods);
+            this.panel1.Controls.Add(this.btnMovies);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -85,69 +85,73 @@
             this.panel1.Size = new System.Drawing.Size(1418, 80);
             this.panel1.TabIndex = 0;
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(1233, 30);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(176, 30);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Search Movies";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSearch.Font = new System.Drawing.Font("Comic Sans MS", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.Color.Black;
+            this.txtSearch.Location = new System.Drawing.Point(1233, 30);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.ReadOnly = true;
+            this.txtSearch.Size = new System.Drawing.Size(176, 30);
+            this.txtSearch.TabIndex = 0;
+            this.txtSearch.Text = "Search Movies";
+            this.txtSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button4
+            // btnSignup
             // 
-            this.button4.AutoSize = true;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(1076, 20);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 44);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Sign Up";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSignup.AutoSize = true;
+            this.btnSignup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignup.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignup.ForeColor = System.Drawing.Color.White;
+            this.btnSignup.Location = new System.Drawing.Point(1076, 20);
+            this.btnSignup.Name = "btnSignup";
+            this.btnSignup.Size = new System.Drawing.Size(142, 44);
+            this.btnSignup.TabIndex = 4;
+            this.btnSignup.Text = "Sign Up";
+            this.btnSignup.UseVisualStyleBackColor = true;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
-            // button3
+            // btnSignin
             // 
-            this.button3.AutoSize = true;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(928, 20);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 44);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Sign In";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSignin.AutoSize = true;
+            this.btnSignin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignin.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignin.ForeColor = System.Drawing.Color.White;
+            this.btnSignin.Location = new System.Drawing.Point(928, 20);
+            this.btnSignin.Name = "btnSignin";
+            this.btnSignin.Size = new System.Drawing.Size(142, 44);
+            this.btnSignin.TabIndex = 3;
+            this.btnSignin.Text = "Sign In";
+            this.btnSignin.UseVisualStyleBackColor = true;
+            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
-            // button2
+            // btnFoods
             // 
-            this.button2.AutoSize = true;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(707, 20);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(215, 44);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Food / Drinks";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnFoods.AutoSize = true;
+            this.btnFoods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFoods.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoods.ForeColor = System.Drawing.Color.White;
+            this.btnFoods.Location = new System.Drawing.Point(707, 20);
+            this.btnFoods.Name = "btnFoods";
+            this.btnFoods.Size = new System.Drawing.Size(215, 44);
+            this.btnFoods.TabIndex = 2;
+            this.btnFoods.Text = "Food / Drinks";
+            this.btnFoods.UseVisualStyleBackColor = true;
+            this.btnFoods.Click += new System.EventHandler(this.btnFoods_Click);
             // 
-            // button1
+            // btnMovies
             // 
-            this.button1.AutoSize = true;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(575, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 44);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Movies";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMovies.AutoSize = true;
+            this.btnMovies.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMovies.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMovies.ForeColor = System.Drawing.Color.White;
+            this.btnMovies.Location = new System.Drawing.Point(575, 20);
+            this.btnMovies.Name = "btnMovies";
+            this.btnMovies.Size = new System.Drawing.Size(126, 44);
+            this.btnMovies.TabIndex = 1;
+            this.btnMovies.Text = "Movies";
+            this.btnMovies.UseVisualStyleBackColor = true;
+            this.btnMovies.Click += new System.EventHandler(this.btnMovies_Click);
             // 
             // label1
             // 
@@ -216,41 +220,87 @@
             // 
             this.panel8.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F5;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel8.Controls.Add(this.button12);
+            this.panel8.Controls.Add(this.btnF4);
             this.panel8.Location = new System.Drawing.Point(1048, 519);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 250);
             this.panel8.TabIndex = 5;
             // 
+            // btnF4
+            // 
+            this.btnF4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnF4.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF4.Location = new System.Drawing.Point(1, 212);
+            this.btnF4.Name = "btnF4";
+            this.btnF4.Size = new System.Drawing.Size(199, 38);
+            this.btnF4.TabIndex = 8;
+            this.btnF4.Text = "Add To Cart";
+            this.btnF4.UseVisualStyleBackColor = true;
+            // 
             // panel9
             // 
             this.panel9.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F3;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel9.Controls.Add(this.button11);
+            this.panel9.Controls.Add(this.btnF3);
             this.panel9.Location = new System.Drawing.Point(747, 519);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(200, 250);
             this.panel9.TabIndex = 6;
             // 
+            // btnF3
+            // 
+            this.btnF3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnF3.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF3.Location = new System.Drawing.Point(0, 212);
+            this.btnF3.Name = "btnF3";
+            this.btnF3.Size = new System.Drawing.Size(199, 38);
+            this.btnF3.TabIndex = 8;
+            this.btnF3.Text = "Add To Cart";
+            this.btnF3.UseVisualStyleBackColor = true;
+            // 
             // panel10
             // 
             this.panel10.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F2;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel10.Controls.Add(this.button10);
+            this.panel10.Controls.Add(this.btnF2);
             this.panel10.Location = new System.Drawing.Point(461, 519);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(200, 250);
             this.panel10.TabIndex = 7;
             // 
+            // btnF2
+            // 
+            this.btnF2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnF2.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF2.Location = new System.Drawing.Point(0, 212);
+            this.btnF2.Name = "btnF2";
+            this.btnF2.Size = new System.Drawing.Size(199, 38);
+            this.btnF2.TabIndex = 8;
+            this.btnF2.Text = "Add To Cart";
+            this.btnF2.UseVisualStyleBackColor = true;
+            this.btnF2.Click += new System.EventHandler(this.btnF2_Click);
+            // 
             // panel11
             // 
             this.panel11.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F1;
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel11.Controls.Add(this.button9);
+            this.panel11.Controls.Add(this.btnF1);
             this.panel11.Location = new System.Drawing.Point(164, 519);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(200, 250);
             this.panel11.TabIndex = 4;
+            // 
+            // btnF1
+            // 
+            this.btnF1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnF1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnF1.Location = new System.Drawing.Point(1, 212);
+            this.btnF1.Name = "btnF1";
+            this.btnF1.Size = new System.Drawing.Size(199, 38);
+            this.btnF1.TabIndex = 8;
+            this.btnF1.Text = "Add To Cart";
+            this.btnF1.UseVisualStyleBackColor = true;
+            this.btnF1.Click += new System.EventHandler(this.btnF1_Click);
             // 
             // label3
             // 
@@ -266,41 +316,87 @@
             // 
             this.panel7.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M4;
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel7.Controls.Add(this.button8);
+            this.panel7.Controls.Add(this.btnM4);
             this.panel7.Location = new System.Drawing.Point(1048, 113);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 250);
             this.panel7.TabIndex = 2;
             // 
+            // btnM4
+            // 
+            this.btnM4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnM4.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM4.Location = new System.Drawing.Point(0, 212);
+            this.btnM4.Name = "btnM4";
+            this.btnM4.Size = new System.Drawing.Size(199, 38);
+            this.btnM4.TabIndex = 8;
+            this.btnM4.Text = "Time | Tickets";
+            this.btnM4.UseVisualStyleBackColor = true;
+            // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M3;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel6.Controls.Add(this.button7);
+            this.panel6.Controls.Add(this.btnM3);
             this.panel6.Location = new System.Drawing.Point(747, 113);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 250);
             this.panel6.TabIndex = 2;
             // 
+            // btnM3
+            // 
+            this.btnM3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnM3.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM3.Location = new System.Drawing.Point(1, 212);
+            this.btnM3.Name = "btnM3";
+            this.btnM3.Size = new System.Drawing.Size(199, 38);
+            this.btnM3.TabIndex = 8;
+            this.btnM3.Text = "Time | Tickets";
+            this.btnM3.UseVisualStyleBackColor = true;
+            // 
             // panel5
             // 
             this.panel5.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M2;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel5.Controls.Add(this.button6);
+            this.panel5.Controls.Add(this.btnM2);
             this.panel5.Location = new System.Drawing.Point(461, 113);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 250);
             this.panel5.TabIndex = 2;
             // 
+            // btnM2
+            // 
+            this.btnM2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnM2.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM2.Location = new System.Drawing.Point(0, 212);
+            this.btnM2.Name = "btnM2";
+            this.btnM2.Size = new System.Drawing.Size(199, 38);
+            this.btnM2.TabIndex = 1;
+            this.btnM2.Text = "Time | Tickets";
+            this.btnM2.UseVisualStyleBackColor = true;
+            this.btnM2.Click += new System.EventHandler(this.btnM2_Click);
+            // 
             // panel4
             // 
             this.panel4.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M1;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Controls.Add(this.button5);
+            this.panel4.Controls.Add(this.btnM1);
             this.panel4.Location = new System.Drawing.Point(164, 113);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 250);
             this.panel4.TabIndex = 1;
+            // 
+            // btnM1
+            // 
+            this.btnM1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnM1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnM1.Location = new System.Drawing.Point(0, 211);
+            this.btnM1.Name = "btnM1";
+            this.btnM1.Size = new System.Drawing.Size(199, 38);
+            this.btnM1.TabIndex = 0;
+            this.btnM1.Text = "Time | Tickets";
+            this.btnM1.UseVisualStyleBackColor = true;
+            this.btnM1.Click += new System.EventHandler(this.btnM1_Click);
             // 
             // label2
             // 
@@ -311,94 +407,6 @@
             this.label2.Size = new System.Drawing.Size(221, 45);
             this.label2.TabIndex = 0;
             this.label2.Text = "Now Showing";
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(0, 211);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 38);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Time | Tickets";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(0, 212);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(199, 38);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Time | Tickets";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(1, 212);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(199, 38);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Time | Tickets";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(0, 212);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(199, 38);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Time | Tickets";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(1, 212);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(199, 38);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Add To Cart";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(0, 212);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(199, 38);
-            this.button10.TabIndex = 8;
-            this.button10.Text = "Add To Cart";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(0, 212);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(199, 38);
-            this.button11.TabIndex = 8;
-            this.button11.Text = "Add To Cart";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(1, 212);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(199, 38);
-            this.button12.TabIndex = 8;
-            this.button12.Text = "Add To Cart";
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // Dashboard_Sujal_
             // 
@@ -434,11 +442,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnSignup;
+        private System.Windows.Forms.Button btnSignin;
+        private System.Windows.Forms.Button btnFoods;
+        private System.Windows.Forms.Button btnMovies;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel7;
@@ -451,13 +459,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnF4;
+        private System.Windows.Forms.Button btnF3;
+        private System.Windows.Forms.Button btnF2;
+        private System.Windows.Forms.Button btnF1;
+        private System.Windows.Forms.Button btnM4;
+        private System.Windows.Forms.Button btnM3;
+        private System.Windows.Forms.Button btnM2;
+        private System.Windows.Forms.Button btnM1;
     }
 }
