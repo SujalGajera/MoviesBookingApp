@@ -200,6 +200,8 @@
             // 
             // panel3
             // 
+            this.panel3.BackgroundImage = global::MoviesBookingApp.Properties.Resources.Cinema_Back;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.panel8);
             this.panel3.Controls.Add(this.panel9);
             this.panel3.Controls.Add(this.panel10);
