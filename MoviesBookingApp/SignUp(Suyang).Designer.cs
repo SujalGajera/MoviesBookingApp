@@ -1,6 +1,6 @@
 ﻿namespace MoviesBookingApp
 {
-    partial class SignUp_Suyang_
+    partial class SignUp_Sujal_
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // SignUp_Sujal_
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "SignUp_Suyang_";
+            this.Name = "SignUp_Sujal_";
+            this.Text = "SignUp_Sujal_";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
