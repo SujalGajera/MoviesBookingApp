@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MoviesBookingApp
 {
-    public partial class SignUp_Suyang_ : Form
+    public partial class SignUp_Sujal_ : Form
     {
-        public SignUp_Suyang_()
+        public SignUp_Sujal_()
         {
             InitializeComponent();
         }
