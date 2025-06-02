@@ -16,7 +16,7 @@ namespace MoviesBookingApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login_Sijan_());
+            Application.Run(new Dashboard_Sujal_());
         }
     }
 }

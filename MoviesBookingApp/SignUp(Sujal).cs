@@ -28,7 +28,7 @@ namespace MoviesBookingApp
             }
 
             txtPassword.UseSystemPasswordChar = true; // Set the password field to use system password characters
-            txtConfirmPass.UseSystemPasswordChar = true; // Set the confirm password field to use system password characters
+             txtConfirmPass.UseSystemPasswordChar = true; // Set the confirm password field to use system password characters
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
