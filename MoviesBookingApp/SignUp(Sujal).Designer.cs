@@ -194,6 +194,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SignUp_Sujal_";
             this.Text = "SignUp_Sujal_";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
