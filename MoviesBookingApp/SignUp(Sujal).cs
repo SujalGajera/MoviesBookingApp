@@ -97,6 +97,10 @@ namespace MoviesBookingApp
 
             MessageBox.Show("Registration successful! You can now log in.");
             this.Close(); // Close the sign-up form after successful registration
+
+            Login_Sijan_ loginForm = new Login_Sijan_(); // Create an instance of the login form
+            loginForm.Show(); // Show the login form
+            this.Close(); // Close the current sign-up form
         }
 
         private bool IsValidEmail(string email) // Method to validate email format using a regular expression

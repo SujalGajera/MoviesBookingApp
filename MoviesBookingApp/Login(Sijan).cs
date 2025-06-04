@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,63 +14,94 @@ namespace MoviesBookingApp
 {
     public partial class Login_Sijan_ : Form
     {
+        private string filePath = Path.Combine(Application.StartupPath, "users.txt");
+
         public Login_Sijan_()
         {
             InitializeComponent();
+            Password.UseSystemPasswordChar = true;
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnSignIn_Click(object sender, EventArgs e)
         {
+            string email = Email.Text.Trim();
+            string password = Password.Text;
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string username = textBox1.Text.Trim();
-            string password = textBox2.Text.Trim();
-
-            // Simple validation
-            if (string.IsNullOrEmpty(username))
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                MessageBox.Show("Please enter a username.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox1.Focus();
+                MessageBox.Show("Please enter both email and password.");
                 return;
             }
 
-            if (string.IsNullOrEmpty(password))
+            if (!IsValidEmail(email))
             {
-                MessageBox.Show("Please enter a password.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                textBox2.Focus();
+                MessageBox.Show("Please enter a valid email address.");
                 return;
             }
 
-            // Hardcoded credentials (for demo)
-            string validUsername = "admin";
-            string validPassword = "password123";
-
-            if (username == validUsername && password == validPassword)
+            if (!File.Exists(filePath))
             {
-                MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // TODO: Open the main form or next screen
-                // For example:
-                // MainForm mainForm = new MainForm();
-                // mainForm.Show();
-                // this.Hide();
+                MessageBox.Show("User database not found.");
+                return;
             }
-            else
+
+            bool foundUser = false;
+            string[] lines = File.ReadAllLines(filePath);
+            foreach (string line in lines)
             {
-                MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                textBox1.Clear();
-                textBox2.Clear();
-                textBox1.Focus();
+                string[] parts = line.Split(',');
+                if (parts.Length >= 2 && parts[0] == email)
+                {
+                    foundUser = true;
+                    string storedPassword = parts[1];
+
+                    if (password == storedPassword)
+                    {
+                        MessageBox.Show("Login successful!");
+                        // Redirect to your main form or dashboard here
+                    }
+                    else
+                    {
+                        MessageBox.Show("Incorrect password.");
+                    }
+
+                    return;
+                }
+            }
+
+            if (!foundUser)
+            {
+                MessageBox.Show("Email not found. Please sign up.");
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            Form1 signUpForm = new Form1();
+            signUpForm.ShowDialog();
+        }
+
+        private void lblForgotPassword_Click(object sender, EventArgs e)
+        {
+            FormResetPassword resetForm = new FormResetPassword();
+            resetForm.Show();
+            this.Close();
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            return Regex.IsMatch(email, pattern);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+        }
     }
-    }
+}
 

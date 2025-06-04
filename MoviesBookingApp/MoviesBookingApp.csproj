@@ -64,6 +64,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPassword.Designer.cs">
+      <DependentUpon>FormResetPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login%28Sijan%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="Dashboard%28Sujal%29.resx">
       <DependentUpon>Dashboard%28Sujal%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPassword.resx">
+      <DependentUpon>FormResetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login%28Sijan%29.resx">
       <DependentUpon>Login%28Sijan%29.cs</DependentUpon>
@@ -148,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sign Up - In.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C5C1478FD1762096ACCB619DCEB0F3B4 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
