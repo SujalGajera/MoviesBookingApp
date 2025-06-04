@@ -31,25 +31,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_Sijan_));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblForgetPassword = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnSignIn = new System.Windows.Forms.Button();
             this.Password = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblForgetPassword = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Controls.Add(this.linkLabel1);
             this.panel1.Controls.Add(this.lblForgetPassword);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.btnRegister);
+            this.panel1.Controls.Add(this.btnSignIn);
             this.panel1.Controls.Add(this.Password);
             this.panel1.Controls.Add(this.Email);
             this.panel1.Controls.Add(this.label3);
@@ -58,6 +60,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(709, 654);
             this.panel1.TabIndex = 8;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // lblForgetPassword
+            // 
+            this.lblForgetPassword.AutoSize = true;
+            this.lblForgetPassword.Location = new System.Drawing.Point(402, 582);
+            this.lblForgetPassword.Name = "lblForgetPassword";
+            this.lblForgetPassword.Size = new System.Drawing.Size(292, 45);
+            this.lblForgetPassword.TabIndex = 10;
+            this.lblForgetPassword.TabStop = true;
+            this.lblForgetPassword.Text = "Forgot Password?";
+            this.lblForgetPassword.Click += new System.EventHandler(this.lblForgotPassword_Click);
             // 
             // label5
             // 
@@ -83,16 +97,17 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Email";
             // 
-            // btnRegister
+            // btnSignIn
             // 
-            this.btnRegister.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRegister.Location = new System.Drawing.Point(290, 361);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(289, 63);
-            this.btnRegister.TabIndex = 7;
-            this.btnRegister.Text = "Sign In";
-            this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnSignIn.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignIn.Location = new System.Drawing.Point(290, 361);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.Size = new System.Drawing.Size(289, 63);
+            this.btnSignIn.TabIndex = 7;
+            this.btnSignIn.Text = "Sign In";
+            this.btnSignIn.UseVisualStyleBackColor = false;
+            this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
             // Password
             // 
@@ -146,15 +161,16 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Welcome To";
             // 
-            // lblForgetPassword
+            // linkLabel1
             // 
-            this.lblForgetPassword.AutoSize = true;
-            this.lblForgetPassword.Location = new System.Drawing.Point(402, 582);
-            this.lblForgetPassword.Name = "lblForgetPassword";
-            this.lblForgetPassword.Size = new System.Drawing.Size(292, 45);
-            this.lblForgetPassword.TabIndex = 10;
-            this.lblForgetPassword.TabStop = true;
-            this.lblForgetPassword.Text = "Forgot Password?";
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
+            this.linkLabel1.Location = new System.Drawing.Point(41, 582);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(140, 45);
+            this.linkLabel1.TabIndex = 11;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sign Up";
             // 
             // Login_Sijan_
             // 
@@ -181,12 +197,13 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnSignIn;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.TextBox Email;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel lblForgetPassword;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
