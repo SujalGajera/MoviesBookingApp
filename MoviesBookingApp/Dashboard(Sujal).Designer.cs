@@ -420,6 +420,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard_Sujal_";
             this.Text = "Dashboard_Sujal_";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

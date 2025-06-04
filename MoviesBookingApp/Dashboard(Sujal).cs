@@ -25,13 +25,13 @@ namespace MoviesBookingApp
         private void btnMovies_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the Movies button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnFoods_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the Foods button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnSignin_Click(object sender, EventArgs e)
@@ -43,31 +43,31 @@ namespace MoviesBookingApp
         private void btnSignup_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the Sign Up button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnM1_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the M1 button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnM2_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the M2 button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnF1_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the F1 button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
 
         private void btnF2_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the F2 button is clicked
-            new SignUp_Suyang_().Show();
+            new SignUp_Sujal_().Show();
         }
     }
 }
