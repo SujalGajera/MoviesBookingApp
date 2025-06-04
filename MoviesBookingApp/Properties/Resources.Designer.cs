@@ -63,6 +63,16 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap C5C1478FD1762096ACCB619DCEB0F3B4__1_ {
+            get {
+                object obj = ResourceManager.GetObject("C5C1478FD1762096ACCB619DCEB0F3B4 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cinema_Back {
             get {
                 object obj = ResourceManager.GetObject("Cinema Back", resourceCulture);

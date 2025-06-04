@@ -77,12 +77,29 @@ namespace MoviesBookingApp
             {
                 MessageBox.Show("Email not found.");
             }
+
+            new Login_Sijan_().Show();
         }
 
         private bool IsValidEmail(string email)
         {
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
+        }
+
+        private void FormResetPassword_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
