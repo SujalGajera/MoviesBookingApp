@@ -78,7 +78,9 @@ namespace MoviesBookingApp
                 MessageBox.Show("Email not found.");
             }
 
-            new Login_Sijan_().Show();
+            Login_Sijan_ loginForm = new Login_Sijan_();
+            loginForm.Show();
+            this.Close();
         }
 
         private bool IsValidEmail(string email)

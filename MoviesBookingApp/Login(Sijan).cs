@@ -84,7 +84,8 @@ namespace MoviesBookingApp
         private void lblForgotPassword_Click(object sender, EventArgs e)
         {
             FormResetPassword resetForm = new FormResetPassword();
-            resetForm.ShowDialog();
+            resetForm.Show();
+            this.Close();
         }
 
         private bool IsValidEmail(string email)
@@ -96,6 +97,10 @@ namespace MoviesBookingApp
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
         }
     }
 }
