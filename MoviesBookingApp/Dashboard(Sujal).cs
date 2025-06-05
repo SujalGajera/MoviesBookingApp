@@ -72,5 +72,10 @@ namespace MoviesBookingApp
             // Open the SignUp form when the F2 button is clicked
             new SignUp_Sujal_().Show();
         }
+
+        private void Dashboard_Sujal__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Ensure the form is not maximized
+        }
     }
 }
