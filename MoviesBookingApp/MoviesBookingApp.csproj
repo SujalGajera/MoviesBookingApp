@@ -84,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeatSelection.Designer.cs">
+      <DependentUpon>SeatSelection.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp%28Sujal%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SeatSelection.resx">
+      <DependentUpon>SeatSelection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp%28Sujal%29.resx">
       <DependentUpon>SignUp%28Sujal%29.cs</DependentUpon>
     </EmbeddedResource>
