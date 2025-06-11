@@ -96,11 +96,12 @@ namespace MoviesBookingApp
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-
+              
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+
         }
 
         private void Login_Sijan__Load(object sender, EventArgs e)
