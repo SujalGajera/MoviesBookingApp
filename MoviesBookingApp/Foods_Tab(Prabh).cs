@@ -16,5 +16,10 @@ namespace MoviesBookingApp
         {
             InitializeComponent();
         }
+
+        private void Foods_Tab_Prabh__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Ensure the form is not maximized
+        }
     }
 }

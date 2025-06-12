@@ -44,7 +44,7 @@ namespace MoviesBookingApp
 
         private void Movies_Tab_Prabh__Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Normal; 
         }
     }
 }
