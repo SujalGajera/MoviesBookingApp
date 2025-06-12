@@ -102,11 +102,15 @@ namespace MoviesBookingApp
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
+            new SignUp_Sujal_().Show();
+
+
         }
 
         private void Login_Sijan__Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Normal; // Maximize the form on load
+
         }
     }
 }
