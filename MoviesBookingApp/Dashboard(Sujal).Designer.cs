@@ -421,6 +421,7 @@
             this.Name = "Dashboard_Sujal_";
             this.Text = "Dashboard_Sujal_";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Dashboard_Sujal__Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

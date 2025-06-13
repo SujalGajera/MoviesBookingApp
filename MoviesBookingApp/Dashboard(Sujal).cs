@@ -15,6 +15,9 @@ namespace MoviesBookingApp
         public Dashboard_Sujal_()
         {
             InitializeComponent();
+            this.DoubleBuffered = true; // Enable double buffering to reduce flickering
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true); // Set optimized double buffering
+            this.UpdateStyles(); // Apply the styles
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -68,6 +71,11 @@ namespace MoviesBookingApp
         {
             // Open the SignUp form when the F2 button is clicked
             new SignUp_Sujal_().Show();
+        }
+
+        private void Dashboard_Sujal__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Ensure the form is not maximized
         }
     }
 }

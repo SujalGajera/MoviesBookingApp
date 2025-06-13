@@ -97,6 +97,10 @@ namespace MoviesBookingApp
 
             MessageBox.Show("Registration successful! You can now log in.");
             this.Close(); // Close the sign-up form after successful registration
+
+            Login_Sijan_ loginForm = new Login_Sijan_(); // Create an instance of the login form
+            loginForm.Show(); // Show the login form
+            this.Close(); // Close the current sign-up form
         }
 
         private bool IsValidEmail(string email) // Method to validate email format using a regular expression
@@ -104,6 +108,11 @@ namespace MoviesBookingApp
             // Regular expression pattern for validating email format
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, emailPattern, RegexOptions.IgnoreCase); // Check if the email matches the pattern
-        } 
+        }
+
+        private void SignUp_Sujal__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Set the form to normal state on load
+        }
     }
 }

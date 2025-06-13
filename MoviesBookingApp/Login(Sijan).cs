@@ -84,13 +84,28 @@ namespace MoviesBookingApp
         private void lblForgotPassword_Click(object sender, EventArgs e)
         {
             FormResetPassword resetForm = new FormResetPassword();
-            resetForm.ShowDialog();
+            resetForm.Show();
+            this.Close();
         }
 
         private bool IsValidEmail(string email)
         {
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+        }
+
+        private void Login_Sijan__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Maximize the form on load
         }
     }
 }
