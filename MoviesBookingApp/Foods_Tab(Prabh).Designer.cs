@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Foods_Tab_Prabh_));
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -101,8 +100,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Image = global::MoviesBookingApp.Properties.Resources.F10;
             this.pictureBox11.Location = new System.Drawing.Point(1131, 521);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(200, 250);
@@ -112,8 +110,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.BackgroundImage")));
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Image = global::MoviesBookingApp.Properties.Resources.F5;
             this.pictureBox10.Location = new System.Drawing.Point(1131, 115);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(200, 250);
@@ -174,8 +171,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox9.BackgroundImage")));
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Image = global::MoviesBookingApp.Properties.Resources.F9;
             this.pictureBox9.Location = new System.Drawing.Point(863, 521);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(200, 250);
@@ -185,8 +181,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Image = global::MoviesBookingApp.Properties.Resources.F8;
             this.pictureBox8.Location = new System.Drawing.Point(612, 521);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(200, 250);
@@ -196,8 +191,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox7.BackgroundImage")));
-            this.pictureBox7.Image = global::MoviesBookingApp.Properties.Resources.F11;
+            this.pictureBox7.Image = global::MoviesBookingApp.Properties.Resources.F7;
             this.pictureBox7.Location = new System.Drawing.Point(348, 521);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(200, 250);
@@ -207,8 +201,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Image = global::MoviesBookingApp.Properties.Resources.F6;
             this.pictureBox6.Location = new System.Drawing.Point(82, 521);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(200, 250);
@@ -218,8 +211,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.Image = global::MoviesBookingApp.Properties.Resources.F5;
+            this.pictureBox4.Image = global::MoviesBookingApp.Properties.Resources.F4;
             this.pictureBox4.Location = new System.Drawing.Point(863, 115);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(200, 250);
@@ -229,8 +221,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Image = global::MoviesBookingApp.Properties.Resources.F3;
+            this.pictureBox2.Image = global::MoviesBookingApp.Properties.Resources.F1;
             this.pictureBox2.Location = new System.Drawing.Point(96, 115);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 250);
@@ -270,8 +261,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Image = global::MoviesBookingApp.Properties.Resources.F2;
             this.pictureBox5.Location = new System.Drawing.Point(348, 115);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(200, 250);
@@ -320,8 +310,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Image = global::MoviesBookingApp.Properties.Resources.F3;
             this.pictureBox3.Location = new System.Drawing.Point(603, 115);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(200, 250);
