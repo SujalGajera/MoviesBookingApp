@@ -63,6 +63,18 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
+//         internal static System.Drawing.Bitmap Add_To_Cart__2_ {
+//             get {
+//                 object obj = ResourceManager.GetObject("Add_To_Cart__2_", resourceCulture);
+//                 return ((System.Drawing.Bitmap)(obj));
+//             }
+//         }
+        
+//         /// <summary>
+//         ///   Looks up a localized resource of type System.Drawing.Bitmap.
+//         /// </summary>
+
         internal static System.Drawing.Bitmap C5C1478FD1762096ACCB619DCEB0F3B4__1_ {
             get {
                 object obj = ResourceManager.GetObject("C5C1478FD1762096ACCB619DCEB0F3B4 (1)", resourceCulture);
@@ -93,6 +105,16 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap F10 {
+            get {
+                object obj = ResourceManager.GetObject("F10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap F2 {
             get {
                 object obj = ResourceManager.GetObject("F2", resourceCulture);
@@ -113,6 +135,16 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap F4 {
+            get {
+                object obj = ResourceManager.GetObject("F4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap F5 {
             get {
                 object obj = ResourceManager.GetObject("F5", resourceCulture);
@@ -123,9 +155,59 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap F6 {
+            get {
+                object obj = ResourceManager.GetObject("F6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F7 {
+            get {
+                object obj = ResourceManager.GetObject("F7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F8 {
+            get {
+                object obj = ResourceManager.GetObject("F8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap F9 {
+            get {
+                object obj = ResourceManager.GetObject("F9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap M1 {
             get {
                 object obj = ResourceManager.GetObject("M1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M10 {
+            get {
+                object obj = ResourceManager.GetObject("M10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +238,56 @@ namespace MoviesBookingApp.Properties {
         internal static System.Drawing.Bitmap M4 {
             get {
                 object obj = ResourceManager.GetObject("M4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M5 {
+            get {
+                object obj = ResourceManager.GetObject("M5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M6 {
+            get {
+                object obj = ResourceManager.GetObject("M6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M7 {
+            get {
+                object obj = ResourceManager.GetObject("M7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M8 {
+            get {
+                object obj = ResourceManager.GetObject("M8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap M9 {
+            get {
+                object obj = ResourceManager.GetObject("M9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

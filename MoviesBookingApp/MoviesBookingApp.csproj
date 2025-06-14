@@ -82,6 +82,12 @@
     <Compile Include="Movies_Tab%28Prabh%29.Designer.cs">
       <DependentUpon>Movies_Tab%28Prabh%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Prabh%27s thankyou page.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Prabh%27s thankyou page.Designer.cs">
+      <DependentUpon>Prabh%27s thankyou page.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp%28Sujal%29.cs">
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Movies_Tab%28Prabh%29.resx">
       <DependentUpon>Movies_Tab%28Prabh%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prabh%27s thankyou page.resx">
+      <DependentUpon>Prabh%27s thankyou page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -132,34 +141,76 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Cinema Back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign Up - In.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C5C1478FD1762096ACCB619DCEB0F3B4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add To Cart %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\M1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M3.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\M2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cinema Back.jpg" />
+    <None Include="Resources\M3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sign Up - In.png" />
+    <None Include="Resources\M4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F10.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\C5C1478FD1762096ACCB619DCEB0F3B4 %281%29.png" />
