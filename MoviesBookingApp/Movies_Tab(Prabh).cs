@@ -31,12 +31,12 @@ namespace MoviesBookingApp
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            panel3.BackColor = Color.FromArgb(159, 75, 35); // Custom brown-orange color
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-            panel3.BackColor = Color.FromArgb(159, 75, 35); // Custom brown-orange color
+            
 
 
         }
