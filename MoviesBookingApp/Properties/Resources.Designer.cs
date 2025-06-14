@@ -63,16 +63,18 @@ namespace MoviesBookingApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_To_Cart__2_ {
-            get {
-                object obj = ResourceManager.GetObject("Add_To_Cart__2_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
+//         internal static System.Drawing.Bitmap Add_To_Cart__2_ {
+//             get {
+//                 object obj = ResourceManager.GetObject("Add_To_Cart__2_", resourceCulture);
+//                 return ((System.Drawing.Bitmap)(obj));
+//             }
+//         }
         
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
+//         /// <summary>
+//         ///   Looks up a localized resource of type System.Drawing.Bitmap.
+//         /// </summary>
+
         internal static System.Drawing.Bitmap C5C1478FD1762096ACCB619DCEB0F3B4__1_ {
             get {
                 object obj = ResourceManager.GetObject("C5C1478FD1762096ACCB619DCEB0F3B4 (1)", resourceCulture);

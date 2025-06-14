@@ -49,8 +49,6 @@ namespace MoviesBookingApp
         private void Movies_Tab_Prabh__Load(object sender, EventArgs e)
         {
             panel1.BackColor = Color.FromArgb(255, 128, 0); // Example RGB
-
-
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -112,7 +110,7 @@ namespace MoviesBookingApp
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-
+           // this.WindowState = FormWindowState.Normal; 
         }
     }
 }

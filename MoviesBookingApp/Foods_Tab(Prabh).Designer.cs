@@ -379,7 +379,17 @@
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            this.SuspendLayout();
+            // 
+            // Foods_Tab_Prabh_
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Foods_Tab_Prabh_";
+            this.Text = "Foods_Tab_Prabh_";
+            this.Load += new System.EventHandler(this.Foods_Tab_Prabh__Load);
+            this.ResumeLayout(false);
         }
 
         #endregion
