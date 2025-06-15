@@ -22,7 +22,7 @@ namespace MoviesBookingApp
 
         private void label4_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btnMovies_Click(object sender, EventArgs e)

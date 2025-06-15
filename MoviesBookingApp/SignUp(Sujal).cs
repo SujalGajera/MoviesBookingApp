@@ -108,6 +108,11 @@ namespace MoviesBookingApp
             // Regular expression pattern for validating email format
             string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, emailPattern, RegexOptions.IgnoreCase); // Check if the email matches the pattern
-        } 
+        }
+
+        private void SignUp_Sujal__Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal; // Set the form to normal state on load
+        }
     }
 }

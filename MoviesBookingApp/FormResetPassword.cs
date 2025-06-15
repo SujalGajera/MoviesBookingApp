@@ -91,7 +91,7 @@ namespace MoviesBookingApp
 
         private void FormResetPassword_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Normal; // Maximize the form on load
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
