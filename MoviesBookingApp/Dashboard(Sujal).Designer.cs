@@ -200,7 +200,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackgroundImage = global::MoviesBookingApp.Properties.Resources.Cinema_Back;
+ 
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.panel8);
             this.panel3.Controls.Add(this.panel9);
@@ -220,7 +220,7 @@
             // 
             // panel8
             // 
-            this.panel8.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F5;
+    
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Controls.Add(this.btnF4);
             this.panel8.Location = new System.Drawing.Point(1048, 519);
@@ -241,7 +241,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F3;
+
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel9.Controls.Add(this.btnF3);
             this.panel9.Location = new System.Drawing.Point(747, 519);
@@ -262,7 +262,7 @@
             // 
             // panel10
             // 
-            this.panel10.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F2;
+
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Controls.Add(this.btnF2);
             this.panel10.Location = new System.Drawing.Point(461, 519);
@@ -284,7 +284,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F1;
+       
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel11.Controls.Add(this.btnF1);
             this.panel11.Location = new System.Drawing.Point(164, 519);
@@ -316,7 +316,7 @@
             // 
             // panel7
             // 
-            this.panel7.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M4;
+
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel7.Controls.Add(this.btnM4);
             this.panel7.Location = new System.Drawing.Point(1048, 113);
@@ -337,7 +337,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M3;
+        
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Controls.Add(this.btnM3);
             this.panel6.Location = new System.Drawing.Point(747, 113);
@@ -358,7 +358,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M2;
+          
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Controls.Add(this.btnM2);
             this.panel5.Location = new System.Drawing.Point(461, 113);
@@ -380,7 +380,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M1;
+          
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Controls.Add(this.btnM1);
             this.panel4.Location = new System.Drawing.Point(164, 113);
@@ -421,7 +421,6 @@
             this.Name = "Dashboard_Sujal_";
             this.Text = "Dashboard_Sujal_";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
-            this.Load += new System.EventHandler(this.Dashboard_Sujal__Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

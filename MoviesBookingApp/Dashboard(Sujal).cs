@@ -22,7 +22,7 @@ namespace MoviesBookingApp
 
         private void label4_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btnMovies_Click(object sender, EventArgs e)
@@ -71,11 +71,6 @@ namespace MoviesBookingApp
         {
             // Open the SignUp form when the F2 button is clicked
             new SignUp_Sujal_().Show();
-        }
-
-        private void Dashboard_Sujal__Load(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Normal; // Ensure the form is not maximized
         }
     }
 }
