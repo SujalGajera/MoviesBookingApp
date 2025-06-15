@@ -73,6 +73,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Chocolate;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 976);
@@ -123,7 +124,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Image = global::MoviesBookingApp.Properties.Resources.M1;
             this.pictureBox1.Location = new System.Drawing.Point(400, 250);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
@@ -136,7 +136,6 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Image = global::MoviesBookingApp.Properties.Resources.M2;
             this.pictureBox2.Location = new System.Drawing.Point(640, 250);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
@@ -149,7 +148,6 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.Image = global::MoviesBookingApp.Properties.Resources.M3;
             this.pictureBox3.Location = new System.Drawing.Point(400, 560);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
@@ -162,7 +160,6 @@
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.Image = global::MoviesBookingApp.Properties.Resources.M4;
             this.pictureBox4.Location = new System.Drawing.Point(640, 560);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
