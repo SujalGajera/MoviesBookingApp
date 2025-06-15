@@ -31,7 +31,7 @@ namespace MoviesBookingApp
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            panel3.BackColor = Color.FromArgb(159, 75, 35); // Custom brown-orange color
+     
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -48,7 +48,7 @@ namespace MoviesBookingApp
 
         private void Movies_Tab_Prabh__Load(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.FromArgb(255, 128, 0); // Example RGB
+          
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -58,7 +58,7 @@ namespace MoviesBookingApp
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            panel1.BackColor = Color.FromArgb(159, 75, 35); // Custom brown-orange color
+           
 
         }
 
@@ -111,6 +111,16 @@ namespace MoviesBookingApp
         private void pictureBox11_Click(object sender, EventArgs e)
         {
            // this.WindowState = FormWindowState.Normal; 
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFoods_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
