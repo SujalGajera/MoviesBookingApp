@@ -187,6 +187,7 @@
             this.Name = "Login_Sijan_";
             this.Text = "Login_Sijan_";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Login_Sijan__Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
