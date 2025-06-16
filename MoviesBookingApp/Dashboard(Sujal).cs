@@ -77,5 +77,10 @@ namespace MoviesBookingApp
         {
             this.WindowState = FormWindowState.Normal; // Ensure the form is not maximized
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
