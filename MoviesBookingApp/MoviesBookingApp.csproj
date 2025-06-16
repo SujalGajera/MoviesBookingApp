@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingConfirmation.Designer.cs">
+      <DependentUpon>BookingConfirmation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard%28Sujal%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="SignUp%28Sujal%29.Designer.cs">
       <DependentUpon>SignUp%28Sujal%29.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookingConfirmation.resx">
+      <DependentUpon>BookingConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard%28Sujal%29.resx">
       <DependentUpon>Dashboard%28Sujal%29.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +169,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\C5C1478FD1762096ACCB619DCEB0F3B4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovir1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
