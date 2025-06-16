@@ -41,14 +41,13 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnF4 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnF3 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnF2 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.btnF1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.btnM4 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -57,6 +56,7 @@
             this.btnM2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnM1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -238,26 +238,6 @@
             this.btnF4.Text = "Add To Cart";
             this.btnF4.UseVisualStyleBackColor = true;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(567, 433);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 45);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Food / Beverages";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(606, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 45);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Now Showing";
-            // 
             // panel9
             // 
             this.panel9.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F3;
@@ -281,7 +261,7 @@
             // 
             // panel10
             // 
-            this.panel10.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F2;
+            this.panel10.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F10;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Controls.Add(this.btnF2);
             this.panel10.Location = new System.Drawing.Point(461, 519);
@@ -322,6 +302,16 @@
             this.btnF1.Text = "Add To Cart";
             this.btnF1.UseVisualStyleBackColor = true;
             this.btnF1.Click += new System.EventHandler(this.btnF1_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(567, 433);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(292, 45);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Food / Beverages";
             // 
             // panel7
             // 
@@ -408,6 +398,16 @@
             this.btnM1.Text = "Time | Tickets";
             this.btnM1.UseVisualStyleBackColor = true;
             this.btnM1.Click += new System.EventHandler(this.btnM1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(606, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(221, 45);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Now Showing";
             // 
             // Dashboard_Sujal_
             // 
