@@ -186,7 +186,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MoviesBookingApp.Properties.Resources.Sign_Up___In;
+            this.BackgroundImage = null;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1418, 968);
             this.Controls.Add(this.panel1);
@@ -195,6 +195,7 @@
             this.Name = "SignUp_Sujal_";
             this.Text = "SignUp_Sujal_";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.SignUp_Sujal__Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

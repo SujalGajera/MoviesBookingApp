@@ -66,13 +66,15 @@
             // 
             // Resetbtn
             // 
+            this.Resetbtn.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.Resetbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Resetbtn.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resetbtn.Location = new System.Drawing.Point(197, 428);
             this.Resetbtn.Name = "Resetbtn";
             this.Resetbtn.Size = new System.Drawing.Size(290, 50);
             this.Resetbtn.TabIndex = 3;
             this.Resetbtn.Text = "Reset Password";
-            this.Resetbtn.UseVisualStyleBackColor = true;
+            this.Resetbtn.UseVisualStyleBackColor = false;
             this.Resetbtn.Click += new System.EventHandler(this.btnResetPassword_Click);
             // 
             // label1
@@ -141,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MoviesBookingApp.Properties.Resources.C5C1478FD1762096ACCB619DCEB0F3B4__1_;
+
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1418, 968);
             this.Controls.Add(this.panel1);

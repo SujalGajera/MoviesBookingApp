@@ -65,7 +65,9 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Gray;
+
+            this.linkLabel1.LinkColor = System.Drawing.Color.Silver;
+
             this.linkLabel1.Location = new System.Drawing.Point(41, 582);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(140, 45);
@@ -77,6 +79,7 @@
             // lblForgetPassword
             // 
             this.lblForgetPassword.AutoSize = true;
+            this.lblForgetPassword.LinkColor = System.Drawing.Color.Silver;
             this.lblForgetPassword.Location = new System.Drawing.Point(402, 582);
             this.lblForgetPassword.Name = "lblForgetPassword";
             this.lblForgetPassword.Size = new System.Drawing.Size(292, 45);
@@ -186,6 +189,7 @@
             this.Name = "Login_Sijan_";
             this.Text = "Login_Sijan_";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Login_Sijan__Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

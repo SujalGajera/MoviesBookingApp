@@ -15,24 +15,30 @@ namespace MoviesBookingApp
         public Dashboard_Sujal_()
         {
             InitializeComponent();
+            this.DoubleBuffered = true; // Enable double buffering to reduce flickering
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true); // Set optimized double buffering
+            this.UpdateStyles(); // Apply the styles
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btnMovies_Click(object sender, EventArgs e)
         {
-            // Open the SignUp form when the Movies button is clicked
-            new SignUp_Sujal_().Show();
+            Movies_Tab_Prabh_ form = new Movies_Tab_Prabh_();
+            form.Show(); // Use ShowDialog() if you want it to block interaction with the current form
+
+
         }
 
         private void btnFoods_Click(object sender, EventArgs e)
         {
-            // Open the SignUp form when the Foods button is clicked
-            new SignUp_Sujal_().Show();
+            Foods_Tab_Prabh_ form = new Foods_Tab_Prabh_();
+            form.Show(); // Use ShowDialog() if you want it to block interaction with the current form
         }
+
 
         private void btnSignin_Click(object sender, EventArgs e)
         {

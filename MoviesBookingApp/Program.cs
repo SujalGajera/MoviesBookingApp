@@ -6,7 +6,8 @@ using System.Windows.Forms;
 
 namespace MoviesBookingApp
 {
-    internal static class Program
+    internal static class 
+        Program
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +17,12 @@ namespace MoviesBookingApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard_Sujal_());
+
+            // Create a form to host the UserControl
+            Dashboard_Sujal_ form = new Dashboard_Sujal_();
+
+
+            Application.Run(form);
         }
     }
 }
