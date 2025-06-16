@@ -41,13 +41,14 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.btnF4 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.btnF3 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnF2 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.btnF1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.btnM4 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -56,7 +57,6 @@
             this.btnM2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnM1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -200,7 +200,6 @@
             // 
             // panel3
             // 
- 
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel3.Controls.Add(this.panel8);
             this.panel3.Controls.Add(this.panel9);
@@ -220,7 +219,7 @@
             // 
             // panel8
             // 
-    
+            this.panel8.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F4;
             this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel8.Controls.Add(this.btnF4);
             this.panel8.Location = new System.Drawing.Point(1048, 519);
@@ -239,9 +238,29 @@
             this.btnF4.Text = "Add To Cart";
             this.btnF4.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(567, 433);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(292, 45);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Food / Beverages";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(606, 33);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(221, 45);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Now Showing";
+            // 
             // panel9
             // 
-
+            this.panel9.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F3;
             this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel9.Controls.Add(this.btnF3);
             this.panel9.Location = new System.Drawing.Point(747, 519);
@@ -262,7 +281,7 @@
             // 
             // panel10
             // 
-
+            this.panel10.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F2;
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.Controls.Add(this.btnF2);
             this.panel10.Location = new System.Drawing.Point(461, 519);
@@ -284,7 +303,7 @@
             // 
             // panel11
             // 
-       
+            this.panel11.BackgroundImage = global::MoviesBookingApp.Properties.Resources.F1;
             this.panel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel11.Controls.Add(this.btnF1);
             this.panel11.Location = new System.Drawing.Point(164, 519);
@@ -304,19 +323,9 @@
             this.btnF1.UseVisualStyleBackColor = true;
             this.btnF1.Click += new System.EventHandler(this.btnF1_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(567, 433);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 45);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Food / Beverages";
-            // 
             // panel7
             // 
-
+            this.panel7.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M4;
             this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel7.Controls.Add(this.btnM4);
             this.panel7.Location = new System.Drawing.Point(1048, 113);
@@ -337,7 +346,7 @@
             // 
             // panel6
             // 
-        
+            this.panel6.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M3;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel6.Controls.Add(this.btnM3);
             this.panel6.Location = new System.Drawing.Point(747, 113);
@@ -358,7 +367,7 @@
             // 
             // panel5
             // 
-          
+            this.panel5.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M2;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel5.Controls.Add(this.btnM2);
             this.panel5.Location = new System.Drawing.Point(461, 113);
@@ -380,7 +389,7 @@
             // 
             // panel4
             // 
-          
+            this.panel4.BackgroundImage = global::MoviesBookingApp.Properties.Resources.M1;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Controls.Add(this.btnM1);
             this.panel4.Location = new System.Drawing.Point(164, 113);
@@ -399,16 +408,6 @@
             this.btnM1.Text = "Time | Tickets";
             this.btnM1.UseVisualStyleBackColor = true;
             this.btnM1.Click += new System.EventHandler(this.btnM1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(606, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 45);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Now Showing";
             // 
             // Dashboard_Sujal_
             // 
