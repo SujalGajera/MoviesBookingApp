@@ -19,17 +19,10 @@ namespace MoviesBookingApp
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Create a form to host the UserControl
-            Form mainForm = new Form();
-            mainForm.Text = "Prime Cinemas - Thank You";
-            mainForm.WindowState = FormWindowState.Maximized;
-            mainForm.StartPosition = FormStartPosition.CenterScreen;
+            Dashboard_Sujal_ form = new Dashboard_Sujal_();
 
-            // Add your thank you page to the form
-            Prabh_s_thankyou_page thankYouPage = new Prabh_s_thankyou_page();
-            thankYouPage.Dock = DockStyle.Fill;
-            mainForm.Controls.Add(thankYouPage);
 
-            Application.Run(mainForm);
+            Application.Run(form);
         }
     }
 }
