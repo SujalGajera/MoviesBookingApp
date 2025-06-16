@@ -141,7 +141,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
+
     <Content Include="Resources\F1.png" />
     <Content Include="Resources\F2.png" />
     <Content Include="Resources\F3.png" />
@@ -150,63 +150,8 @@
     <Content Include="Resources\M2.png" />
     <Content Include="Resources\M3.png" />
     <Content Include="Resources\M4.png" />
-=======
-    <None Include="Resources\F12.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F31.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F51.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M21.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M31.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M41.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F13.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M12.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M22.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\M42.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\F41.png" />
->>>>>>> 585b2969a771dd86525f26d0ac162f106ca8ebb8
+
+  
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
