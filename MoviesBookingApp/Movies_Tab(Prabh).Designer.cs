@@ -180,9 +180,11 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox2.Image = global::MoviesBookingApp.Properties.Resources.M1;
             this.pictureBox2.Location = new System.Drawing.Point(16, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(200, 230);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -274,9 +276,11 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox3.Image = global::MoviesBookingApp.Properties.Resources.M2;
             this.pictureBox3.Location = new System.Drawing.Point(16, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(200, 230);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -346,9 +350,11 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Gray;
+            this.pictureBox4.Image = global::MoviesBookingApp.Properties.Resources.M4;
             this.pictureBox4.Location = new System.Drawing.Point(16, 35);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(200, 230);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 

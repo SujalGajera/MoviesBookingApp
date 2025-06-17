@@ -71,7 +71,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::MoviesBookingApp.Properties.Resources.ovir1;
+            this.pictureBox1.Image = global::MoviesBookingApp.Properties.Resources.ovir;
             this.pictureBox1.Location = new System.Drawing.Point(177, 86);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(292, 171);
