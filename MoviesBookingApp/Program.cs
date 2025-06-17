@@ -19,7 +19,7 @@ namespace MoviesBookingApp
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Create a form to host the UserControl
-            Dashboard_Sujal_ form = new Dashboard_Sujal_();
+           Dashboard_Sujal_ form = new Dashboard_Sujal_();
 
 
             Application.Run(form);
