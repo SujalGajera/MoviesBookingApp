@@ -88,24 +88,12 @@
     <Compile Include="Movies_Tab%28Prabh%29.Designer.cs">
       <DependentUpon>Movies_Tab%28Prabh%29.cs</DependentUpon>
     </Compile>
-    <Compile Include="PaymentForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PaymentForm.Designer.cs">
-      <DependentUpon>PaymentForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="SeatSelectionForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SeatSelectionForm.Designer.cs">
-      <DependentUpon>SeatSelectionForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SignUp%28Sujal%29.cs">
       <SubType>Form</SubType>
