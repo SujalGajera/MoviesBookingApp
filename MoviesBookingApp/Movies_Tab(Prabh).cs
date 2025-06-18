@@ -121,6 +121,13 @@ namespace MoviesBookingApp
         private void btnFoods_Click(object sender, EventArgs e)
         {
             new Foods_Tab_Prabh_().Show(); // Open the Foods tab when the button is clicked
+            this.Hide(); // Hide the current Movies tab
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Foods_Tab_Prabh_().Show(); // Open the Foods tab when the button is clicked
+            this.Hide(); // Hide the current Movies tab
         }
     }
 }

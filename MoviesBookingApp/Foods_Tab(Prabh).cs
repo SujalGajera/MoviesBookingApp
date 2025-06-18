@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CinemaSeatBooking;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -160,6 +161,12 @@ namespace MoviesBookingApp
         private void button5_Click(object sender, EventArgs e)
         {
             cartHandler("Coke", 2);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            new NewSeatSelectionForm().Show(); // Open the Seat Selection form when the button is clicked
+            this.Hide(); // Hide the current Foods tab
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoviesBookingApp;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -90,7 +91,8 @@ namespace CinemaSeatBooking
             payButton.Click += (s, e) =>
             {
                 MessageBox.Show("Payment processed successfully!", "Success");
-                this.Close();
+                new BookingConfirmation().Show(); // Assuming BookingConfirmation is another form to show after payment 
+                this.Close(); // Close the payment form after processing
             };
             this.Controls.Add(payButton);
         }

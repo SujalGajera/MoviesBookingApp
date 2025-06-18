@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoviesBookingApp.Properties;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -41,21 +42,24 @@ namespace CinemaSeatBooking
                 Size = new Size(100, 140),
                 BackColor = Color.DarkGray,
                 SizeMode = PictureBoxSizeMode.StretchImage
+                
             };
+            poster.Image = Resources.M1; // Assuming you have an image named 'M1' in your resources
 
-            try
-            {
-                poster.Image = Image.FromFile("movie.jpg");
-            }
-            catch
-            {
-                MessageBox.Show("图片加载失败，请确认 movie.jpg 文件是否存在于 bin\\Debug\\net48 目录。");
-            }
+            // Load image from resources
+            //try
+            //{
+            //    poster.Image = Resources.M1; // Assuming your image is named 'movie' in resources
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show($"Error loading image from resources: {ex.Message}");
+            //}
             this.Controls.Add(poster);
 
             Label movieDetails = new Label
             {
-                Text = "Movie: Ballerina\nGenre: Action\nDuration: 2h\nRated: R18+",
+                Text = "Movie: The Haunted House\nGenre: Horror\nDuration: 2h\nRated: R18+",
                 Location = new Point(130, 50),
                 Size = new Size(300, 100),
                 Font = new Font("Segoe UI", 10),
@@ -193,9 +197,10 @@ namespace CinemaSeatBooking
         private void OpenPaymentPage(object sender, EventArgs e)
         {
             string seatList = string.Join(", ", selectedSeats);
-            string summary = $"Movie: Ballerina\nDate: 12 Jun\nTime: 8:00 PM\nSeats: {seatList}";
+            string summary = $"Movie: The Haunted House\nDate: 12 Jun\nTime: 8:00 PM\nSeats: {seatList}";
             PaymentForm payForm = new PaymentForm(summary);
             payForm.ShowDialog();
+            this.Close(); // Close the seat selection form after payment
         }
     }
 }
