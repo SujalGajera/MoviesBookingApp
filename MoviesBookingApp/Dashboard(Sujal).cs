@@ -18,6 +18,7 @@ namespace MoviesBookingApp
             this.DoubleBuffered = true; // Enable double buffering to reduce flickering
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true); // Set optimized double buffering
             this.UpdateStyles(); // Apply the styles
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
         }
 
         private void label4_Click(object sender, EventArgs e)
