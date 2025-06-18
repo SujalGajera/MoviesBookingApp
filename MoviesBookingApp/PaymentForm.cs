@@ -12,6 +12,8 @@ namespace CinemaSeatBooking
             this.Text = "Bill Summary";
             this.Size = new Size(600, 450);
             this.BackColor = Color.Black;
+            this.DoubleBuffered = true; // Enable double buffering for smoother rendering
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
 
             InitUI(movieDetails);
         }

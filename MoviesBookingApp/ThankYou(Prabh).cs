@@ -15,6 +15,8 @@ namespace MoviesBookingApp
         public ThankYou_Prabh_()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
+            this.WindowState = FormWindowState.Normal;
         }
     }
 }

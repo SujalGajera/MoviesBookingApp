@@ -200,6 +200,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ThankYou_Prabh_";
             this.Text = "ThankYou_Prabh_";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

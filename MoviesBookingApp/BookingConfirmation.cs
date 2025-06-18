@@ -15,6 +15,8 @@ namespace MoviesBookingApp
         public BookingConfirmation()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Normal;
+            this.DoubleBuffered = true;
         }
 
         private void label3_Click(object sender, EventArgs e)

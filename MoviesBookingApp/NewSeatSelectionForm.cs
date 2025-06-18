@@ -19,6 +19,8 @@ namespace CinemaSeatBooking
             this.Size = new Size(1200, 700);
             this.BackColor = Color.Black;
             InitUI();
+            this.DoubleBuffered = true; // Enable double buffering for smoother rendering
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
         }
 
         private void InitUI()

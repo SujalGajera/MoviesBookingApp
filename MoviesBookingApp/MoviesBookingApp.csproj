@@ -143,10 +143,19 @@
     <EmbeddedResource Include="Movies_Tab%28Prabh%29.resx">
       <DependentUpon>Movies_Tab%28Prabh%29.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewSeatSelectionForm.resx">
+      <DependentUpon>NewSeatSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeatSelectionForm.resx">
+      <DependentUpon>SeatSelectionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp%28Sujal%29.resx">
       <DependentUpon>SignUp%28Sujal%29.cs</DependentUpon>

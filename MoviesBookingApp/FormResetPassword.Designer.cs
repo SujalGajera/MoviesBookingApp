@@ -143,12 +143,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.BackgroundImage = global::MoviesBookingApp.Properties.Resources.C5C1478FD1762096ACCB619DCEB0F3B4__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1418, 968);
             this.Controls.Add(this.panel1);
             this.Name = "FormResetPassword";
             this.Text = "FormResetPassword";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.FormResetPassword_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

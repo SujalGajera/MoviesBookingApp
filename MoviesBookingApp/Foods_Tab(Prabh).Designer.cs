@@ -425,6 +425,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Foods_Tab_Prabh_";
             this.Text = "Foods_Tab_Prabh_";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Foods_Tab_Prabh__Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

@@ -25,7 +25,8 @@ namespace CinemaSeatBooking
             InitializeComponent();
             this.Text = "Select Seats";
             this.Size = new Size(900, 600);  // 设置窗体大小
-
+            this.DoubleBuffered = true; // 启用双缓冲以减少闪烁
+            this.WindowState = FormWindowState.Normal; // 设置初始窗口状态为正常
             InitializeControls();  // 添加面板和按钮
             GenerateSeats();       // 生成座位按钮
         }

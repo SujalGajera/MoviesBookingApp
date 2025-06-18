@@ -20,6 +20,8 @@ namespace MoviesBookingApp
         {
             InitializeComponent();
             Password.UseSystemPasswordChar = true;
+            this.DoubleBuffered = true; // Enable double buffering to reduce flickering
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
         }
 
         private void btnSignIn_Click(object sender, EventArgs e)
@@ -73,12 +75,15 @@ namespace MoviesBookingApp
             {
                 MessageBox.Show("Email not found. Please sign up.");
             }
+
+            Movies_Tab_Prabh_ moviesTab = new Movies_Tab_Prabh_();
+            moviesTab.Show(); // Show the movies tab form
+            this.Hide(); // Hide the login form
         }
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            Form1 signUpForm = new Form1();
-            signUpForm.ShowDialog();
+           
         }
 
         private void lblForgotPassword_Click(object sender, EventArgs e)
@@ -111,6 +116,7 @@ namespace MoviesBookingApp
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new SignUp_Sujal_().Show();
+            this.Close(); // Close the login form when opening the signup form
         }
     }
 }

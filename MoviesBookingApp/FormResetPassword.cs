@@ -21,6 +21,8 @@ namespace MoviesBookingApp
             InitializeComponent();
             NewPass.UseSystemPasswordChar = true;
             ConfirmPass.UseSystemPasswordChar = true;
+            this.DoubleBuffered = true; // Enable double buffering to reduce flickering
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
         }
 
         private void btnResetPassword_Click(object sender, EventArgs e)

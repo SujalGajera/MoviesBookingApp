@@ -20,6 +20,8 @@ namespace MoviesBookingApp
         public SignUp_Sujal_()
         {
             InitializeComponent();
+            this.DoubleBuffered = true; // Enable double buffering to reduce flickering
+            this.WindowState = FormWindowState.Normal; // Set the initial window state to normal
 
             // Ensure the users.txt file exists
             if (!File.Exists(filePath))
