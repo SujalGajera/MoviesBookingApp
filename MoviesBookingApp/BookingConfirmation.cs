@@ -43,5 +43,11 @@ namespace MoviesBookingApp
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new ThankYou_Prabh_().Show(); // Open the Thank You form when the button is clicked
+            this.Hide(); // Hide the current Booking Confirmation form  
+        }
     }
 }

@@ -18,5 +18,11 @@ namespace MoviesBookingApp
             this.DoubleBuffered = true;
             this.WindowState = FormWindowState.Normal;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new Dashboard_Sujal_().Show(); // Open the Dashboard form when the button is clicked
+            this.Close(); // Close the Thank You form
+        }
     }
 }

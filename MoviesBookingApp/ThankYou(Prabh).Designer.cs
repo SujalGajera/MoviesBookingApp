@@ -179,6 +179,7 @@
             this.button1.TabIndex = 44;
             this.button1.Text = "Back to Main Menu";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ThankYou_Prabh_
             // 
