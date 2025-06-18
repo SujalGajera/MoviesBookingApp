@@ -70,6 +70,7 @@
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnFoods = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -199,6 +200,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Controls.Add(this.btnFoods);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
@@ -549,6 +551,20 @@
             this.label2.TabIndex = 38;
             this.label2.Text = "Movies Avaiable";
             // 
+            // btnFoods
+            // 
+            this.btnFoods.AutoSize = true;
+            this.btnFoods.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFoods.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFoods.ForeColor = System.Drawing.Color.White;
+            this.btnFoods.Location = new System.Drawing.Point(1284, 20);
+            this.btnFoods.Name = "btnFoods";
+            this.btnFoods.Size = new System.Drawing.Size(215, 44);
+            this.btnFoods.TabIndex = 3;
+            this.btnFoods.Text = "Food / Drinks";
+            this.btnFoods.UseVisualStyleBackColor = true;
+            this.btnFoods.Click += new System.EventHandler(this.btnFoods_Click);
+            // 
             // Movies_Tab_Prabh_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -639,5 +655,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnFoods;
     }
 }

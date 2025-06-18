@@ -61,6 +61,9 @@ namespace MoviesBookingApp
                     {
                         MessageBox.Show("Login successful!");
                         // Redirect to your main form or dashboard here
+                        Movies_Tab_Prabh_ moviesTab = new Movies_Tab_Prabh_();
+                        moviesTab.Show(); // Show the movies tab form
+                        this.Hide(); // Hide the login form
                     }
                     else
                     {
@@ -76,9 +79,6 @@ namespace MoviesBookingApp
                 MessageBox.Show("Email not found. Please sign up.");
             }
 
-            Movies_Tab_Prabh_ moviesTab = new Movies_Tab_Prabh_();
-            moviesTab.Show(); // Show the movies tab form
-            this.Hide(); // Hide the login form
         }
 
         private void btnSignUp_Click(object sender, EventArgs e)

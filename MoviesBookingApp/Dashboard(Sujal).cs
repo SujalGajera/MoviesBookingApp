@@ -29,13 +29,13 @@ namespace MoviesBookingApp
         private void btnMovies_Click(object sender, EventArgs e)
         {
             new SignUp_Sujal_().Show(); // Open the SignUp form when the Foods button is clicked
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnFoods_Click(object sender, EventArgs e)
         {
             new SignUp_Sujal_().Show(); // Open the SignUp form when the Foods button is clicked
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
 
@@ -43,42 +43,42 @@ namespace MoviesBookingApp
         {
             // Open the Login form when the Sign In button is clicked
             new Login_Sijan_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the Sign Up button is clicked
             new SignUp_Sujal_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnM1_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the M1 button is clicked
             new SignUp_Sujal_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnM2_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the M2 button is clicked
             new SignUp_Sujal_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnF1_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the F1 button is clicked
             new SignUp_Sujal_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
 
         private void btnF2_Click(object sender, EventArgs e)
         {
             // Open the SignUp form when the F2 button is clicked
             new SignUp_Sujal_().Show();
-            //this.Hide(); // Hide the current form
+            this.Hide(); // Hide the current form
         }
     }
 }
